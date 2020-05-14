@@ -1,0 +1,29 @@
+.givenLoginPassword{
+ padding: 4px; 
+}
+
+.loginWrapper{
+  font-family: monospace;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  border: 4px solid rgba(9, 79, 51, 0.27);
+  border-radius: 5px;
+  width: 30%;
+}
+
+.loginForm{
+  padding: 6px;
+}
+
+
+
+.titleImg{
+  width: 100%;
+  opacity: .5;
+}

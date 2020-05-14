@@ -1,0 +1,219 @@
+
+
+.calendarReact{
+  z-index: 1;
+}
+
+.cloudPart1{
+  background-image: linear-gradient(to bottom left, darkgrey, #e4f1f5);
+  border-radius: 100%;
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 10%;
+  height: 4%;
+  top: 10%;
+  left: 30%;
+  cursor: pointer;
+}
+
+.cloudPart2{
+  background-image: linear-gradient(to bottom left, darkgrey, #e4f1f5);
+  border-radius: 100%;
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 3%;
+  height: 8%;
+  top: 5%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.cloudPart1:hover {
+  background-image: linear-gradient(to bottom left, darkgrey, lightgrey);;
+}
+
+.cloudPart2:hover {
+  background-image: linear-gradient(to bottom left, darkgrey, lightgrey);;
+}
+
+.eventModal{
+  border-radius: 2.5px;
+  color: white;
+  border: 12px solid #4d2600;
+  padding: 2vh;
+  height: auto;
+  font-family: monospace;
+  background-color: #994d00;
+}
+
+.flowerTally{
+  width: 100%;
+  background-color: #de9590;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.fullBody{
+  width: 100vh;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.grassTally{
+  width: 100%;
+  background-color: #8bc795;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.hideCalendarButton {
+  border-color: transparent;
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  border-left: 10vh solid transparent;
+  border-right: 60vh solid transparent;
+  border-bottom: 20vh solid lightgrey;
+  border-top-left-radius: 56%;
+  border-bottom-right-radius: 15%;
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  cursor: pointer;
+  /* z-index: -1; */
+}
+
+
+.hideCalendarButton:hover {
+  border-bottom: 20vh solid darkgrey;
+}
+
+.hideCalendarDiv:hover {
+  border-bottom: 22vh solid darkgrey;
+  cursor: pointer;
+}
+
+.hideCalendarDiv{
+  /* background-image: linear-gradient(to top left, darkgrey, #ebe8e6); */
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 70vh 22vh 10vh;
+  border-color: transparent transparent lightgrey transparent;
+  border-top-left-radius: 126%;
+  border-bottom-right-radius: 15%;
+  position: absolute;
+  left: 80vh;
+  bottom: 60vh;
+  z-index: -1;
+}
+
+.hidedivdiv{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 70vh 22vh 10vh;
+  border-color: transparent transparent transparent transparent;
+  border-top-left-radius: 126%;
+  border-bottom-right-radius: 15%;
+  position: absolute;
+  left: 80vh;
+  bottom: 60vh;
+  z-index: 2;
+}
+
+.hidedivdiv:hover {
+  cursor: pointer;
+}
+
+.modalButton{
+  margin: 2vh;
+}
+
+.modalButtons{
+  margin-bottom: 2vh;
+}
+
+.modalForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.keyHole{
+  position: absolute;
+  height: 10vh;
+  right: 2vh;
+  bottom: 2vh;
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+.keyHoleDiv {
+  cursor: pointer;
+  right: 0;
+
+
+}
+
+.modalTreeButton{
+  background-color: #00cccc;
+}
+
+.modalFlowerButton{
+  background-color: #b3003b;
+}
+
+
+.selectedModals{
+  flex: auto;
+  margin-top: 2vh;
+}
+
+.submitModal{
+  position: absolute;
+  bottom: 4vh;
+  right: 4vh;
+  background-color: #00cccc	;
+  border-radius: 5px;
+}
+
+.tallySheet {
+  background-color: grey;
+  border: 5px solid brown;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.tallyTitle{
+  padding: 5px;
+  text-align: center;
+}
+
+.toggleOpenerButton{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10vh 5vh 10vh;
+  border-color: transparent transparent rgb(132, 87, 87) transparent;
+  border-top-left-radius: 126%;
+  border-bottom-right-radius: 15%;
+  position: absolute;
+  left: 10vh;
+  bottom: 10vh;
+  
+}
+
+.treeTally{
+  width: 100%;
+  background-color: #bf7a2a;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+/*
+.yearForest{
+  z-index: 1;
+} */
