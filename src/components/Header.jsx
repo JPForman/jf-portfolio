@@ -7,11 +7,11 @@ function Header(){
   return(
     <div>
       <div className='header'>
-        <Link className="noUnderline" to="/aboutMe">jf</Link>
+        <Link className="headerLink" to="/aboutMe">joshua forman<span className='nameTitle'>m.a.m.ed.</span></Link>
         <div></div>
-        <Link className="noUnderline" to="/sites">sites</Link>
-        <Link className="noUnderline" to="/aboutMe">about me</Link>
-        <Link className="noUnderline" to="/contact">contact</Link>
+        <Link className="headerLink" to="/sites">sites & apps</Link>
+        <Link className="headerLink" to="/aboutMe">about me</Link>
+        <Link className="headerLink" to="/contact">contact</Link>
       </div>
     </div>
     )
