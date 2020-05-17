@@ -60,7 +60,7 @@
 .theorem{
   color: #262626;
   font-family: "Source Sans Pro",Sans-serif;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 900;
   line-height: 36px;
   letter-spacing: -1.6px;
@@ -72,8 +72,20 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   filter: saturate(0);
+  opacity: 0.7;
+  text-align: center;
+  align-items: center;
+  
 }
 
 .theoremCompanies img{
   width: 30%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.theoremWrapper{
+  padding: 10px;
 }

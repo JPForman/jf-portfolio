@@ -27,7 +27,7 @@ function AboutMe(){
       </div>
 
       <div className='block'>
-        <div className='imgWrapperA'>
+        <div className='imgWrapperA theoremWrapper'>
           <p className='theorem'>theorem</p>
           <div className='theoremCompanies'>
             <img className='LAGalaxyImg' src={LAGalaxy}></img>
