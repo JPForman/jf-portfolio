@@ -9,7 +9,7 @@ function Header(){
       <div className='header'>
         <Link className="headerLink" to="/aboutMe">joshua forman<span className='nameTitle'>m.a.m.ed.</span></Link>
         <div></div>
-        <Link className="headerLink" to="/sites">sites & apps</Link>
+        <Link className="headerLink" to="/projects">projects</Link>
         <Link className="headerLink" to="/aboutMe">about me</Link>
         <Link className="headerLink" to="/contact">contact</Link>
       </div>
