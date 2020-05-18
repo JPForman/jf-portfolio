@@ -14,6 +14,7 @@ import DATA from '../img/DATAlogo.jpg';
 import CTDHS from '../img/ctdhs.jpg';
 import Editing from '../img/editing.jpg';
 import Sk8 from '../img/sk8.jpeg';
+import Footer from './Footer';
 
 
 function AboutMe(){
@@ -80,6 +81,7 @@ function AboutMe(){
         <h3 className='wordContent'>Prior to teaching, I was a professional video editor in Chicago for about 7 years.</h3>
       </div>
 
+      <Footer />
     </div>
   )
 }

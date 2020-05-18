@@ -65,7 +65,8 @@
 
 .nameWrapper{
   background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
-  height: 10vh;
+  height: fit-content;
+  padding: 5px;
   margin-top: 2%;
   margin-bottom: -2%;
 }
