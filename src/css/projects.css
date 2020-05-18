@@ -1,0 +1,36 @@
+.block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  /* justify-items: center; */
+  text-align: center;
+  height: auto;
+  margin-top: 5%;
+}
+
+.imgWrapperA{
+  background-image: linear-gradient(to left, rgba(255,0,0,0), #262626);
+}
+
+.myForestImg{
+  opacity: 0.4;
+}
+
+.myForestImg:hover{
+  opacity: 0.8
+}
+
+.title{
+  text-align: right;
+  color: snow;
+  font-size: 7vh;
+  padding-right: 20px;
+}
+
+.titleWrapper{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
+  height: fit-content;
+  padding: 5px;
+  margin-top: 2%;
+  margin-bottom: -2%;
+}
