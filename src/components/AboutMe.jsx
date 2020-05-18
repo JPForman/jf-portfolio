@@ -13,12 +13,16 @@ import WSU from '../img/wsu.png';
 import DATA from '../img/DATAlogo.jpg';
 import CTDHS from '../img/ctdhs.jpg';
 import Editing from '../img/editing.jpg';
+import Sk8 from '../img/sk8.jpeg';
 
 
 function AboutMe(){
 
   return(
     <div>
+      <div className='nameWrapper'>
+        <h1 className='name'>hello, my name is Joshua Forman</h1>
+      </div>
       <div className='block'>
         <div className='imgWrapperA'>
           <img className='meImg' src={MeMash}></img>
@@ -75,7 +79,6 @@ function AboutMe(){
         </div>
         <h3 className='wordContent'>Prior to teaching, I was a professional video editor in Chicago for about 7 years.</h3>
       </div>
-
 
     </div>
   )

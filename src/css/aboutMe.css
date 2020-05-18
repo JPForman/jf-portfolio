@@ -6,6 +6,7 @@
   text-align: center;
   /* border: 2px solid black; */;
   height: auto;
+  margin-top: 5%;
 }
 
 .block h3{
@@ -27,12 +28,10 @@
 }
 
 .imgWrapperA{
-  margin-top: 5%;
   background-image: linear-gradient(to left, rgba(255,0,0,0), #262626);
 }
 
 .imgWrapperB{
-  margin-top: 5%;
   background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
 }
 
@@ -55,6 +54,20 @@
   height: auto;
   opacity: 0.05;
   float: left;
+}
+
+.name{
+  text-align: right;
+  color: snow;
+  font-size: 7vh;
+  padding-right: 20px;
+}
+
+.nameWrapper{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
+  height: 10vh;
+  margin-top: 2%;
+  margin-bottom: -2%;
 }
 
 .schoolsAttended{
@@ -89,6 +102,18 @@
   width: 100%;
   height: auto;
   opacity: 0.5;
+}
+
+.sk8{
+  width: 100%;
+  /* height: 20px; */
+  filter: saturate(.2);
+  opacity: 0.3;
+}
+
+.sk8Wrapper{
+  background-image: linear-gradient(to left, rgba(255,0,0,0), #262626);
+  width: 100%;
 }
 
 .theorem{
