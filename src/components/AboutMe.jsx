@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/aboutMe.css';
 import AksharDave from '../img/AksharDave.jpg';
 import MeMash from '../img/MeMash.png';
@@ -6,6 +7,12 @@ import SriYantra from '../img/SriYantra.png';
 import LAGalaxy from '../img/LAGalaxy.png';
 import Trailblazers from '../img/Trailblazers.png';
 import Aflac from '../img/Aflac.png';
+import Epicodus from '../img/Epicodus.png';
+import DePaul from '../img/depaul.png';
+import WSU from '../img/wsu.png';
+import DATA from '../img/DATAlogo.jpg';
+import CTDHS from '../img/ctdhs.jpg';
+import Editing from '../img/editing.jpg';
 
 
 function AboutMe(){
@@ -28,7 +35,7 @@ function AboutMe(){
 
       <div className='block'>
         <div className='imgWrapperA theoremWrapper'>
-          <p className='theorem'>theorem</p>
+          <a href='https://theoremadvertising.com/' className='theorem'>theorem</a>
           <div className='theoremCompanies'>
             <img className='LAGalaxyImg' src={LAGalaxy}></img>
             <img className='TrailblazersImg' src={Trailblazers}></img>
@@ -46,20 +53,25 @@ function AboutMe(){
       </div>
 
       <div className='block'>
-        <div className='imgWrapperA'>
-        <img className='diamondImg' src={AksharDave}></img>
+        <div className='imgWrapperA schoolsAttended'>
+          <img className='schoolAttended' src={DePaul}></img>
+          <img className='schoolAttended' src={Epicodus}></img>
+          <img className='schoolAttended' src={WSU}></img>
         </div>
         <h3 className='wordContent'>I was trained to program at Epicodus in Portland, Oregon. I hold a Masters in Mathematics Education from DePaul University and a BA in Philosophy from Wayne State University.</h3>
       </div>
 
       <div className='block'>
         <h3 className='wordContent'>Before getting into programming, I taught mathematics, yoga, and film editing for 8 years.</h3>
-        <div className='imgWrapperB'></div>
+        <div className='imgWrapperB schoolsTaught'>
+          <img className='schoolTaught' src={DATA}></img>
+          <img className='schoolTaught' src={CTDHS}></img>
+        </div>
       </div>
 
       <div className='block'>
         <div className='imgWrapperA'>
-        <img className='diamondImg' src={AksharDave}></img>
+          <img className='editing' src={Editing}></img>
         </div>
         <h3 className='wordContent'>Prior to teaching, I was a professional video editor in Chicago for about 7 years.</h3>
       </div>
