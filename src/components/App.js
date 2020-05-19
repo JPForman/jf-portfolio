@@ -15,6 +15,7 @@ function App() {
       <Header />
 
       <Switch>
+        <Route exact path='/' render={()=><AboutMe />}/>
         <Route exact path='/aboutMe' render={()=><AboutMe />}/>
         <Route exact path='/projects' render={()=><Projects />}/>
         <Route exact path='/contact' render={()=><Contact />}/>
