@@ -3,6 +3,7 @@ import '../css/projects.css';
 import MyForest from '../img/myForest.png';
 import Railz from '../img/Railz.png';
 import Ganesha from '../img/GaneshaKambucha.png';
+import BlazersComponent from '../img/blazersComponent.png';
 
 
 function Projects(){
@@ -24,6 +25,28 @@ function Projects(){
           <h3 className='wordContent'>MyForest is an application built in react for the purpose of letting users tack and visually represent personal habits, events, and data.</h3>
         </div>
       </div>
+      
+      <div className='block'>
+        <div className='wordWrapper'>
+          <h1 className='wordContent'>Trailblazers Key Player Stats</h1>
+          <h3 className='wordContent'>This is a Key Player Stats component built in React as part of the pregame, game, and postgame application designed at Theorem Agency for the Portland Trailblazers. Icon's and numbers drawn dynamically.</h3>
+        </div>
+        <div className=''>
+          <img className='myForestImg' src={BlazersComponent}></img>
+        </div>
+      </div>
+
+      <div className='block'>
+        <a href='https://aqueous-earth-35152.herokuapp.com/#/'>
+          <div className='ganeshaWrapper'>
+              <img className='ganeshaImg' src={Ganesha}></img>
+          </div>
+        </a>
+        <div className='wordWrapper'>
+          <h1 className='wordContent'>Ganesha's Kambucha House</h1>
+          <h3 className='wordContent'>MyForest is an application built in react for the purpose of letting users tack and visually represent personal habits, events, and data.</h3>
+        </div>
+      </div>
 
       <div className='block'>
         <div className='wordWrapper'>
@@ -36,18 +59,6 @@ function Projects(){
           <a href='https://damp-basin-71037.herokuapp.com/spots'>
             <img className='myForestImg' src={Railz}></img>
           </a>
-        </div>
-      </div>
-
-      <div className='block'>
-        <div className='ganeshaWrapper'>
-          <a href='https://aqueous-earth-35152.herokuapp.com/#/'>
-            <img className='ganeshaImg' src={Ganesha}></img>
-          </a>
-        </div>
-        <div className='wordWrapper'>
-          <h1 className='wordContent'>Ganesha's Kambucha House</h1>
-          <h3 className='wordContent'>MyForest is an application built in react for the purpose of letting users tack and visually represent personal habits, events, and data.</h3>
         </div>
       </div>
 
