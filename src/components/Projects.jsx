@@ -5,6 +5,7 @@ import Railz from '../img/Railz.png';
 import Ganesha from '../img/GaneshaKambucha.png';
 import BlazersComponent from '../img/blazersComponent.png';
 import LAGalaxy from '../img/LAGalaxyComponent.png';
+import HRDash from '../img/TheoremDash.png';
 import Footer from './Footer';
 
 
@@ -50,14 +51,14 @@ function Projects(){
 
       <div className='block'>
         <div className='wordWrapper'>
-          <h1 className='wordContent'>Railz</h1>
-          <h3 className='wordContent'>Railz is a skate spot finder built with Ruby on Railz with bCrypt authentication and Google API maps. I was part of a team in creating this project.</h3>
-          <h6>login: admin@admin.com</h6>
-          <h6>pw: 123</h6>
+          <h1 className='wordContent'>HR Portal</h1>
+          <h3 className='wordContent'>HR Portal is an application that was built with React as an internal human resources dashboard. I built this project with Kyle Wymer and Marcus Jensen.</h3>
+          <h6>login: samantha@theorem.com</h6>
+          <h6>pw: test2</h6>
         </div>
         <div className=''>
-          <a href='https://damp-basin-71037.herokuapp.com/spots'>
-            <img className='myForestImg' src={Railz}></img>
+          <a href='https://safe-thicket-26720.herokuapp.com/#/'>
+            <img className='myForestImg' src={HRDash}></img>
           </a>
         </div>
       </div>
@@ -71,6 +72,20 @@ function Projects(){
         <div className='wordWrapper'>
           <h1 className='wordContent'>Ganesha's Kambucha House</h1>
           <h3 className='wordContent'>Ganesha's Kambucha House is a tap room applicataion built in React that allows users to add new brews and subtract pints as they sell.</h3>
+        </div>
+      </div>
+
+      <div className='block'>
+        <div className='wordWrapper'>
+          <h1 className='wordContent'>Railz</h1>
+          <h3 className='wordContent'>Railz is a skate spot finder built with Ruby on Railz with bCrypt authentication and Google API maps. I was part of a team in creating this project.</h3>
+          <h6>login: admin@admin.com</h6>
+          <h6>pw: 123</h6>
+        </div>
+        <div className=''>
+          <a href='https://damp-basin-71037.herokuapp.com/spots'>
+            <img className='myForestImg' src={Railz}></img>
+          </a>
         </div>
       </div>
 
