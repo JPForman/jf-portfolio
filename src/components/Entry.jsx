@@ -13,7 +13,9 @@ function Entry({ entry }) {
         {entry.image}
       </div>
       <h3>{entry.description}</h3>
-      <a href={entry.link}>Link?</a>
+      {entry.link != '' ?
+      <a href={entry.link}>{entry.title} Live</a>
+      : null}
     </div>
   )
 }

@@ -14,7 +14,7 @@ const blogEntries = [
     'title': 'React Movie Database Search Application',
     'date': '6-11-20',
     'description': 'I created a simple React app that allows users to search the OMDB api by key word in a title. The return is a series of clickable movie poster cards, each giving a popup containing movie details. The program uses axios to make the api calls. Super friendly to use. The tutorial was excellent. I even managed to get it hosted onto heroku after some trouble shooting :) Got 10 job applications in today.',
-    'link': '',
+    'link': 'https://sheltered-lake-36729.herokuapp.com/#/',
     'image': <img className='entry-image' src={jun11}></img>
   }
 ]
