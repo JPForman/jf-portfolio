@@ -14,7 +14,7 @@ function Entry({ entry }) {
       </div>
       <h3>{entry.description}</h3>
       {entry.link != '' ?
-      <a href={entry.link}>{entry.title} Live</a>
+      <a className='blog-link' href={entry.link}>{entry.title} Live</a>
       : null}
     </div>
   )

@@ -28,3 +28,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.blog-link{
+  font-size: 2vh;
+  color: #EF8354;
+}
