@@ -1,9 +1,17 @@
 import React from 'react'
+import jun14 from './img/blog/06-14-20.jpeg'
 import jun13 from './img/blog/06-13-20.png'
 import jun12 from './img/blog/06-12-20.png'
 import jun11 from './img/blog/06-11-20.png'
 
 const blogEntries = [
+  {
+    'title': 'Style Blog, Study JavaScript',
+    'date': '6-13-20',
+    'description': "I worked on my novel a bunch today. It's so wonderful to return to something that you have developed over time, like gardens, art, sports, code. How wonderful it is to nurture and prune and build, to learn and unlearn, to see change and growth and struggle. To understand connection and stories and perspective. I didn't code a bunch today, but some. 10 more job applications down.",
+    'link': '',
+    'image': <img className='entry-image' src={jun14}></img>
+  },
   {
     'title': 'Style Blog, Study JavaScript',
     'date': '6-13-20',
