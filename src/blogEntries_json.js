@@ -1,8 +1,16 @@
 import React from 'react'
+import jun13 from './img/blog/06-13-20.png'
 import jun12 from './img/blog/06-12-20.png'
 import jun11 from './img/blog/06-11-20.png'
 
 const blogEntries = [
+  {
+    'title': 'Style Blog, Study JavaScript',
+    'date': '6-13-20',
+    'description': 'Had a lot of fun working on a few codewar problems today. Super fun, and I love looking at other peoples interesting solves. Used a nifty ternary today. Love it when I get to use ternary statements irl. Nailed one in my blog site component in react. It was just a simple conditional rendering, but it worked the first time. I love it when that happens. Sometimes, its just the little things that make me smile. Got another 10 applications in today. Somethings gotta catch :)',
+    'link': '',
+    'image': <img className='entry-image' src={jun13}></img>
+  },
   {
     'title': 'Blog Site Is Up',
     'date': '6-12-20',

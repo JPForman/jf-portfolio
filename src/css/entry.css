@@ -19,6 +19,12 @@
   height: 30vh;
 }
 
+.image-column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title-column {
   margin-top: 5vh;
 }

@@ -10,7 +10,9 @@ function Entry({ entry }) {
           <h1>{entry.title}</h1>
           <h3>{entry.date}</h3>
         </div>
-        {entry.image}
+        <div className='image-column'>
+          {entry.image}
+        </div>
       </div>
       <h3>{entry.description}</h3>
       {entry.link != '' ?
