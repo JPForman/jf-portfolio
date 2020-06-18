@@ -3,11 +3,26 @@ import jun14 from './img/blog/06-14-20.jpeg'
 import jun13 from './img/blog/06-13-20.png'
 import jun12 from './img/blog/06-12-20.png'
 import jun11 from './img/blog/06-11-20.png'
+import jun02 from './img/blog/06-02-20.png'
 
 const blogEntries = [
   {
     'title': 'Style Blog, Study JavaScript',
-    'date': '6-13-20',
+    'date': '6-15-20',
+    'description': "MERN beginnings. 4 applications in.",
+    'link': '',
+    'image': <img className='entry-image' src={jun14}></img>
+  },
+  {
+    'title': 'Style Blog, Study JavaScript',
+    'date': '6-15-20',
+    'description': "MERN beginnings. 4 applications in.",
+    'link': '',
+    'image': <img className='entry-image' src={jun14}></img>
+  },
+  {
+    'title': 'Novel Times',
+    'date': '6-14-20',
     'description': "I worked on my novel a bunch today. It's so wonderful to return to something that you have developed over time, like gardens, art, sports, code. How wonderful it is to nurture and prune and build, to learn and unlearn, to see change and growth and struggle. To understand connection and stories and perspective. I didn't code a bunch today, but some. 10 more job applications down.",
     'link': '',
     'image': <img className='entry-image' src={jun14}></img>
@@ -32,7 +47,14 @@ const blogEntries = [
     'description': 'I created a simple React app that allows users to search the OMDB api by key word in a title. The return is a series of clickable movie poster cards, each giving a popup containing movie details. The program uses axios to make the api calls. Super friendly to use. The tutorial was excellent. I even managed to get it hosted onto heroku after some trouble shooting :) Got 10 job applications in today.',
     'link': 'https://sheltered-lake-36729.herokuapp.com/#/',
     'image': <img className='entry-image' src={jun11}></img>
-  }
+  },
+  {
+    'title': 'Instant Messeger: React, Firestore, and Firebase Auth',
+    'date': '6-2-20',
+    'description': "Made an instant messager using the awesome tutorial by PortEXE. Firebase's Firestore and auth are made super user friendly, especially with a great teacher! First time using material-ui for styling, clean and professional. I definitely had a few stumbling blocks, but in the end have a fully functioning instant messager with auth and a noSQL database :)",
+    'link': '',
+    'image': <img className='entry-image' src={jun02}></img>
+  },
 ]
 
 export default blogEntries
