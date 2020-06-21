@@ -1,4 +1,5 @@
 import React from 'react'
+import jun17 from './img/blog/06-17-20.png'
 import jun14 from './img/blog/06-14-20.jpeg'
 import jun13 from './img/blog/06-13-20.png'
 import jun12 from './img/blog/06-12-20.png'
@@ -7,18 +8,11 @@ import jun02 from './img/blog/06-02-20.png'
 
 const blogEntries = [
   {
-    'title': 'Style Blog, Study JavaScript',
-    'date': '6-15-20',
-    'description': "MERN beginnings. 4 applications in.",
+    'title': 'MERN Stack',
+    'date': '6-17-20',
+    'description': "Been studying some MERN stack. I created a fitness tracker using MERN that has full crud capabilities. Used bootstrap, postman, and axios along with the obvious MERN. Love ya freeCodeCamp! 10ish more job applications applications in.",
     'link': '',
-    'image': <img className='entry-image' src={jun14}></img>
-  },
-  {
-    'title': 'Style Blog, Study JavaScript',
-    'date': '6-15-20',
-    'description': "MERN beginnings. 4 applications in.",
-    'link': '',
-    'image': <img className='entry-image' src={jun14}></img>
+    'image': <img className='entry-image' src={jun17}></img>
   },
   {
     'title': 'Novel Times',
@@ -28,7 +22,7 @@ const blogEntries = [
     'image': <img className='entry-image' src={jun14}></img>
   },
   {
-    'title': 'Style Blog, Study JavaScript',
+    'title': 'Style Blog & Hit Codewars',
     'date': '6-13-20',
     'description': 'Had a lot of fun working on a few codewar problems today. Super fun, and I love looking at other peoples interesting solves. Used a nifty ternary today. Love it when I get to use ternary statements irl. Nailed one in my blog site component in react. It was just a simple conditional rendering, but it worked the first time. I love it when that happens. Sometimes, its just the little things that make me smile. Got another 10 applications in today. Somethings gotta catch :)',
     'link': '',
