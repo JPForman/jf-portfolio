@@ -1,4 +1,5 @@
 import React from 'react'
+import jun25 from './img/blog/06-25-20.png'
 import jun17 from './img/blog/06-17-20.png'
 import jun14 from './img/blog/06-14-20.jpeg'
 import jun13 from './img/blog/06-13-20.png'
@@ -8,9 +9,30 @@ import jun02 from './img/blog/06-02-20.png'
 
 const blogEntries = [
   {
+    'title': "Covid Tracker",
+    'date': '6-25-20',
+    'description': "been working with react, charts.js, material UI, and api calls to create a covid tracker. took a few days, but it's created and hosted on heroku. Special thanks to {JS} Mastery for the tutorial. hans rosling = hero status",
+    'link': 'https://mighty-chamber-80612.herokuapp.com/#/',
+    'image': <img className='entry-image' src={jun25}></img>
+  },
+  {
+    'title': "MERN and Covid API's",
+    'date': '6-20-20',
+    'description': "Rewrote resume. recreating the blog as a mern stack to perhaps integrate to this portfolio. volunteered for the COVID Tracking Progect at atlantic. while tinkering around on their site i ran into their easy to use api and think i'm going to test out some cool data visualization libraries with it. i love interesting ways of representing data to tell a story.",
+    'link': '',
+    'image': <img className='entry-image' src={jun17}></img>
+  },
+  {
+    'title': 'Friends',
+    'date': '6-18-20',
+    'description': "Worked with Brett talking over code and things. Everyone says it's important to connect with good people in these times. As much as we think we can strive for greatness developing the self all alone in own cave, it's also important to live with community.",
+    'link': '',
+    'image': <img className='entry-image' src={jun17}></img>
+  },
+  {
     'title': 'MERN Stack',
     'date': '6-17-20',
-    'description': "Been studying some MERN stack. I created a fitness tracker using MERN that has full crud capabilities. Used bootstrap, postman, and axios along with the obvious MERN. Love ya freeCodeCamp! 10ish more job applications applications in.",
+    'description': "Been studying some MERN stack. I created a fitness tracker using MERN that has full CRUD capabilities. Used bootstrap, postman, and axios along with the obvious MERN stack. Love ya freeCodeCamp! I love being in a field that has such an impressive and evolving cannon of online educational resources. Brilliant minds of all ages and ethnicities sharing and developing together, freakin awesome. 10ish more job applications applications in.",
     'link': '',
     'image': <img className='entry-image' src={jun17}></img>
   },
