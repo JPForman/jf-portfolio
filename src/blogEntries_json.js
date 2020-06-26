@@ -11,7 +11,7 @@ const blogEntries = [
   {
     'title': "Covid Tracker",
     'date': '6-25-20',
-    'description': "been working with react, charts.js, material UI, and api calls to create a covid tracker. took a few days, but it's created and hosted on heroku. Special thanks to {JS} Mastery for the tutorial. hans rosling = hero status",
+    'description': "Been working with React, Chart.js, Material UI, and api calls to create a covid-19 tracker. Took a few days, but it's created and hosted on heroku. Unfortunately, I had to take down the movie database search because of the 5 item cap for us broke people at heroku. Special thanks to {JS} Mastery for the tutorial. Love working with data, especially with a public service and social justice agenda. hans rosling = hero status",
     'link': 'https://mighty-chamber-80612.herokuapp.com/#/',
     'image': <img className='entry-image' src={jun25}></img>
   },
