@@ -8,6 +8,11 @@
   margin-top: 10%;
 }
 
+.classfull-img{
+  padding: 30px;
+  width:100%;
+}
+
 .ganeshaImg{
   width: 100%;
 }
@@ -46,7 +51,7 @@
 }
 
 .myForestImg{
-  opacity: 0.4;
+  /* opacity: 0.4; */
   width: 80%;
 }
 

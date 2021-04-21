@@ -6,6 +6,7 @@ import Ganesha from '../img/GaneshaKambucha.png';
 import BlazersComponent from '../img/blazersComponent.png';
 import LAGalaxy from '../img/LAGalaxyComponent.png';
 import HRDash from '../img/TheoremDash.png';
+import ClassBucksFull from '../img/ClassbucksLogoFull.jpg';
 import Footer from './Footer';
 
 
@@ -15,6 +16,18 @@ function Projects(){
     <div>
       <div className='titleWrapper'>
         <h1 className='title'>Projects</h1>
+      </div>
+
+      <div className='block'>
+      <div className='wordWrapper'>
+          <h1 className='wordContent'>ClassBucks</h1>
+          <h3 className='wordContent'>I am the lead developer for an educational web application built in React. This is a cool app that gamifies classroom management! Due to patent and IP concerns, samples of this code can be seen on request.</h3>
+        </div>
+        <div className=''>
+          <a href="https://classbucks.com/">
+          <img className='classfull-img' src={ClassBucksFull}></img>
+          </a>
+        </div>
       </div>
 
       <div className='block'>
