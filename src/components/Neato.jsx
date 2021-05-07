@@ -23,7 +23,7 @@ const Neato = () => {
       {blocks.map((block) =>
         blockNumber === block ? (
           <div
-            className="neato-block"
+            className="neato-block selected-block"
             style={{ backgroundColor: `#${backColor}` }}
             onClick={blockClickHandler}
           ></div>
