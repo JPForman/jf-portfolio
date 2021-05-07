@@ -4,7 +4,7 @@
   font-size: 3vh;
   text-decoration: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   justify-items: center;
   margin-top: 5px;
