@@ -26,7 +26,7 @@ const Projects = () => {
         <div className="wordWrapper">
           <h1 className="wordContent">Pauly's Pizza</h1>
           <h3 className="wordContent">
-            Pauly's Pizza is a React app I made for fun. I made this to play around with an SCSS transpiler and to work with some new React concepts I have been learning. The app has a menu built out with ordering capability, along with a neat little in-store app that can track the pizza workflow.
+            Pauly's Pizza is a React app I made for fun. I made this to play around with a SCSS transpiler along with some new React concepts I have been learning. The app has a menu built out with ordering capability, along with a neat little in-store app that can track the pizza workflow.
           </h3>
         </div>
       </div>
