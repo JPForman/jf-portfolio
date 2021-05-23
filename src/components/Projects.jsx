@@ -8,6 +8,7 @@ import LAGalaxy from "../img/LAGalaxyComponent.png";
 import HRDash from "../img/TheoremDash.png";
 import ClassBucksFull from "../img/ClassbucksLogoFull.jpg";
 import PaulysPizza from "../img/PaulysPizza.png";
+import wordsy from "../img/wordsy.png";
 import Footer from "./Footer";
 
 const Projects = () => {
@@ -15,20 +16,6 @@ const Projects = () => {
     <div>
       <div className="titleWrapper">
         <h1 className="title">Projects</h1>
-      </div>
-
-      <div className="block">
-        <div className="">
-          <a href="https://sheltered-depths-26577.herokuapp.com/">
-            <img className="myForestImg" src={PaulysPizza}></img>
-          </a>
-        </div>
-        <div className="wordWrapper">
-          <h1 className="wordContent">Pauly's Pizza</h1>
-          <h3 className="wordContent">
-            Pauly's Pizza is a React app I made for fun. I made this to play around with a SCSS transpiler along with some new React concepts I have been learning. The app has a menu built out with ordering capability, along with a neat little in-store app that can track the pizza workflow.
-          </h3>
-        </div>
       </div>
 
       <div className="block">
@@ -42,21 +29,49 @@ const Projects = () => {
         </div>
         <div className="">
           <a href="https://classbucks.com/">
-            <img className="classfull-img" src={ClassBucksFull}></img>
+            <img className="myForestImg" src={ClassBucksFull}></img>
           </a>
         </div>
       </div>
 
       <div className="block">
         <div className="">
-          <a href="https://dry-forest-61437.herokuapp.com/">
+          <a href="http://paulys.cyborgforman.me/">
+            <img className="myForestImg" src={PaulysPizza}></img>
+          </a>
+        </div>
+        <div className="wordWrapper">
+          <h1 className="wordContent">Pauly's Pizza</h1>
+          <h3 className="wordContent">
+            Pauly's Pizza is a React app I made for fun. I made this to play around with a SCSS transpiler along with some new React concepts I have been learning. The app has a menu built out with ordering capability, along with a neat little in-store app that can track the pizza workflow.
+          </h3>
+        </div>
+      </div>
+
+      <div className="block">
+        <div className="">
+          <h1 className="wordContent">wordsy</h1>
+          <h3 className="wordContent">
+            I love words. One Saturday my brother and I were unable to find an adequate word app. I took that as an opportunity to get involved with the Merriam Webster API and make a cute little mobile responsive app. It's built with React and SCSS. Love the squirl. Turns out there is already a game named wordsy, so I'll probably change it up :) It is a fun app that I actually use. I can't wait to get some time to build this out a bit more!
+          </h3>
+        </div>
+        <div className="">
+          <a href="http://wordsy.cyborgforman.me/">
+            <img className="myForestImg" src={wordsy}></img>
+          </a>
+        </div>
+      </div>
+
+      <div className="block">
+        <div className="">
+          <a href="http://myforest.cyborgforman.me/#/">
             <img className="myForestImg" src={MyForest}></img>
           </a>
         </div>
         <div className="wordWrapper">
           <h1 className="wordContent">myForest</h1>
           <h3 className="wordContent">
-            MyForest is an application built in react for the purpose of letting
+            MyForest is an application built in React for the purpose of letting
             users tack and visually represent personal habits, events, and data.
           </h3>
         </div>
@@ -79,7 +94,7 @@ const Projects = () => {
 
       <div className="block">
         <div className="galaxyWrapper">
-          <img className="ganeshaImg" src={LAGalaxy}></img>
+          <img className="myForestImg" src={LAGalaxy}></img>
         </div>
         <div className="wordWrapper">
           <h1 className="wordContent">
