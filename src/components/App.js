@@ -11,6 +11,7 @@ import AboutMe from "./AboutMe.jsx";
 import Contact from "./Contact.jsx";
 import Projects from "./Projects.jsx";
 import Neato from "./Neato.jsx";
+import DragMe from "./DragMe.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/projects" render={() => <Projects />} />
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/neato" render={() => <Neato />} />
+            <Route exact path="/dragme" render={() => <DragMe />} />
             <Redirect to="/" />
           </Switch>
         </div>
