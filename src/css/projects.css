@@ -53,6 +53,8 @@
 .myForestImg{
   /* opacity: 0.4; */
   width: 80%;
+  border: 5px solid white;
+  border-radius: 5px;
 }
 
 .myForestImg:hover{
@@ -70,7 +72,7 @@
   background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
   height: fit-content;
   padding: 5px;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 
 .wordWrapper h6{

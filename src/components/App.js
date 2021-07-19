@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,16 +13,34 @@ import Projects from "./Projects.jsx";
 import Neato from "./Neato.jsx";
 import DragMe from "./DragMe.jsx";
 
-function App() {
+const App = () => {
+  const [darkmode, setDarkmode] = useState(false);
+
+  const darkStyle = {
+    backgroundColor: "rgb(89, 89, 89)",
+    color: "white",
+  };
+
+  const lightStyle = {
+    backgroundColor: "white",
+    color: "black",
+  };
+
   return (
-    <div className="app">
+    <div className="app" style={darkmode ? darkStyle : lightStyle}>
       <Router>
         <div>
-          <Header />
+          <Header setDarkmode={setDarkmode} darkmode={darkmode} />
           <Switch>
-            <Route exact path="/" render={() => <AboutMe />} />
-            <Route exact path="/aboutMe" render={() => <AboutMe />} />
-            <Route exact path="/projects" render={() => <Projects />} />
+            <Route exact path="/">
+              <AboutMe darkmode={darkmode} />
+            </Route>
+            <Route
+              exact
+              path="/aboutMe"
+              render={() => <AboutMe darkmode={darkmode} />}
+            />
+            <Route exact path="/projects" render={() => <Projects darkmode={darkmode}/>} />
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/neato" render={() => <Neato />} />
             <Route exact path="/dragme" render={() => <DragMe />} />
@@ -32,6 +50,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

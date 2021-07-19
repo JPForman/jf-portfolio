@@ -11,7 +11,7 @@ import PaulysPizza from "../img/PaulysPizza.png";
 import wordsy from "../img/wordsy.png";
 import Footer from "./Footer";
 
-const Projects = () => {
+const Projects = ({ darkmode }) => {
   return (
     <div>
       <div className="titleWrapper">
@@ -29,7 +29,7 @@ const Projects = () => {
         </div>
         <div className="">
           <a href="https://classbucks.com/">
-            <img className="myForestImg" src={ClassBucksFull}></img>
+            <img className="myForestImg" src={ClassBucksFull} alt='classbucks logo' />
           </a>
         </div>
       </div>
@@ -159,7 +159,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer darkmode={darkmode}/>
     </div>
   );
 };

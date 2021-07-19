@@ -11,7 +11,20 @@
   padding-right: 20px;
   margin-top: 5%;
   font-size: 2vh;
-
+  
+}
+.footer-dark{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-top: 5%;
+  font-size: 2vh;
 }
 
 .footer p{

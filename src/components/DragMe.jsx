@@ -53,7 +53,8 @@ const getListStyle = (isDraggingOver) => ({
   background: isDraggingOver ? "gold" : "#005C69",
   padding: grid,
   width: "20%",
-  height: "90vh",
+  height: '100%',
+  minHeight: "90vh",
 });
 
 const DragMe = () => {
@@ -92,22 +93,7 @@ const DragMe = () => {
 
   return (
     <div>
-      <button
-        type="button"
-        onClick={() => {
-          setState([...state, []]);
-        }}
-      >
-        Add new group
-      </button>
-      <button
-        type="button"
-        onClick={() => {
-          setState([...state, getItems(1)]);
-        }}
-      >
-        Add new item
-      </button>
+      
       <div style={{ display: "flex" }}>
         <DragDropContext onDragEnd={onDragEnd}>
           {state.map((el, ind) => (
@@ -153,6 +139,22 @@ const DragMe = () => {
           ))}
         </DragDropContext>
       </div>
+      <button
+        type="button"
+        onClick={() => {
+          setState([...state, []]);
+        }}
+      >
+        Add new group
+      </button>
+      <button
+        type="button"
+        onClick={() => {
+          setState([...state, getItems(1)]);
+        }}
+      >
+        Add new item
+      </button>
     </div>
   );
 };

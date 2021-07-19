@@ -16,10 +16,11 @@ import Editing from "../img/editing.jpg";
 import ClassBucksLogo from "../img/ClassBucksLogo.jpg";
 import Footer from "./Footer";
 
-function AboutMe() {
+const AboutMe = ({ darkmode }) => {
+  console.log("darkmode am", darkmode);
   return (
     <div>
-      <div className="nameWrapper">
+      <div className={!darkmode ? "nameWrapper" : "nameWrapper-dark"}>
         <h1 className="name">hello, my name is Joshua Forman</h1>
       </div>
       <div className="block">
@@ -118,10 +119,10 @@ function AboutMe() {
         </h3>
       </div>
 
-      <Footer />
+      <Footer darkmode={darkmode} />
     </div>
   );
-}
+};
 
 export default AboutMe;
 
