@@ -14,8 +14,8 @@ import Footer from "./Footer";
 const Projects = ({ darkmode }) => {
   return (
     <div>
-      <div className="titleWrapper">
-        <h1 className="title">Projects</h1>
+      <div className={!darkmode ? "titleWrapper": 'titleWrapper-dark'}>
+        <h1 className="title" >Projects</h1>
       </div>
 
       <div className="block">

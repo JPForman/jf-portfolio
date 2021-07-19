@@ -35,13 +35,22 @@ const App = () => {
             <Route exact path="/">
               <AboutMe darkmode={darkmode} />
             </Route>
+
             <Route
               exact
               path="/aboutMe"
               render={() => <AboutMe darkmode={darkmode} />}
             />
-            <Route exact path="/projects" render={() => <Projects darkmode={darkmode}/>} />
-            <Route exact path="/contact" render={() => <Contact />} />
+            <Route
+              exact
+              path="/projects"
+              render={() => <Projects darkmode={darkmode} />}
+            />
+            <Route
+              exact
+              path="/contact"
+              render={() => <Contact darkmode={darkmode} />}
+            />
             <Route exact path="/neato" render={() => <Neato />} />
             <Route exact path="/dragme" render={() => <DragMe />} />
             <Redirect to="/" />

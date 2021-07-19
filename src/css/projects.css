@@ -1,4 +1,4 @@
-.block{
+.block {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -8,16 +8,16 @@
   margin-top: 10%;
 }
 
-.classfull-img{
+.classfull-img {
   padding: 30px;
-  width:100%;
-}
-
-.ganeshaImg{
   width: 100%;
 }
 
-.galaxyWrapper{
+.ganeshaImg {
+  width: 100%;
+}
+
+.galaxyWrapper {
   margin-left: 10%;
   width: 80%;
   height: 30vh;
@@ -27,11 +27,11 @@
   opacity: 0.7;
 }
 
-.galaxyWrapper:hover{
-  opacity:1;
+.galaxyWrapper:hover {
+  opacity: 1;
 }
 
-.ganeshaWrapper{
+.ganeshaWrapper {
   margin-left: 10%;
   background-color: #419e5a;
   width: 80%;
@@ -42,39 +42,44 @@
   opacity: 0.7;
 }
 
-.ganeshaWrapper:hover{
+.ganeshaWrapper:hover {
   opacity: 1;
 }
 
-.imgWrapperA{
-  background-image: linear-gradient(to left, rgba(255,0,0,0), #262626);
+.imgWrapperA {
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #262626);
 }
 
-.myForestImg{
+.myForestImg {
   /* opacity: 0.4; */
   width: 80%;
   border: 5px solid white;
   border-radius: 5px;
 }
 
-.myForestImg:hover{
-  opacity: 0.8
+.myForestImg:hover {
+  opacity: 0.8;
 }
 
-.title{
+.title {
   text-align: right;
   color: snow;
   font-size: 7vh;
   padding-right: 20px;
 }
 
-.titleWrapper{
-  background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
+.titleWrapper {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #262626);
   height: fit-content;
   padding: 5px;
   /* margin-top: 2%; */
 }
+.titleWrapper-dark {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
+  height: fit-content;
+  padding: 5px;
+}
 
-.wordWrapper h6{
+.wordWrapper h6 {
   font-size: 2vh;
 }
