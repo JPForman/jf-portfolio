@@ -17,7 +17,7 @@ const App = () => {
   const [darkmode, setDarkmode] = useState(false);
 
   const darkStyle = {
-    backgroundColor: "rgb(89, 89, 89)",
+    backgroundColor: "#323232",
     color: "white",
   };
 

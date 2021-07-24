@@ -52,8 +52,8 @@ const AboutMe = ({ darkmode }) => {
 
       <div className="block">
         <div className="imgWrapperA theoremWrapper">
-          <a href="https://theoremadvertising.com/" className="theorem">
-            theorem
+          <a href="https://theoremadvertising.com/" className={!darkmode ? "theorem" : 'theorem-dark'}>
+            theorem agency
           </a>
           <div className="theoremCompanies">
             <img className="LAGalaxyImg" src={LAGalaxy}></img>
