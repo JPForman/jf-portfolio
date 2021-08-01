@@ -17,7 +17,6 @@ import ClassBucksLogo from "../img/ClassBucksLogo.jpg";
 import Footer from "./Footer";
 
 const AboutMe = ({ darkmode }) => {
-  console.log("darkmode am", darkmode);
   return (
     <div>
       <div className={!darkmode ? "nameWrapper" : "nameWrapper-dark"}>
@@ -125,7 +124,3 @@ const AboutMe = ({ darkmode }) => {
 };
 
 export default AboutMe;
-
-{
-  /* <p>i love math, film, and programming. recently i finished an internship at theorem agency where i worked primarily in reactjs. i created client deliverables for companies such as aflac insurance, the portland trailblazers, and the la galaxy. we worked to both create clean front end experiences, as well as process analytic reports for well informed business decisions. i was trained to program at epicodus in portland. i am enamored with programming and can't wait to see where it takes me next!</p> */
-}

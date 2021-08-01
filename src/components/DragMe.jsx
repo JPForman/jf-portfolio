@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+
+import "../css/dragMe.css";
 
 // data generator
 const getItems = (count, offset = 0) =>
@@ -39,9 +40,9 @@ const getItemStyle = (isDragging, draggableStyle) => ({
   // item styles
   userSelect: "none",
   padding: grid * 2,
-  borderRadius: '5px',
+  borderRadius: "5px",
   margin: `0 0 ${grid}px 0`,
-  height: '7%',
+  height: "7%",
 
   // change background colour if dragging
   background: isDragging ? "#5E0035" : "#950952",
@@ -53,8 +54,8 @@ const getListStyle = (isDraggingOver) => ({
   background: isDraggingOver ? "gold" : "#005C69",
   padding: grid,
   width: "20%",
-  height: '100%',
-  minHeight: "90vh",
+  height: "100%",
+  minHeight: "92vh",
 });
 
 const DragMe = () => {
@@ -92,8 +93,7 @@ const DragMe = () => {
   }
 
   return (
-    <div>
-      
+    <div className="drag-container">
       <div style={{ display: "flex" }}>
         <DragDropContext onDragEnd={onDragEnd}>
           {state.map((el, ind) => (
@@ -139,22 +139,26 @@ const DragMe = () => {
           ))}
         </DragDropContext>
       </div>
-      <button
-        type="button"
-        onClick={() => {
-          setState([...state, []]);
-        }}
-      >
-        Add new group
-      </button>
-      <button
-        type="button"
-        onClick={() => {
-          setState([...state, getItems(1)]);
-        }}
-      >
-        Add new item
-      </button>
+      <div className='drag-button-container'>
+        <button
+          type="button"
+          className="drag-button"
+          onClick={() => {
+            setState([...state, []]);
+          }}
+        >
+          Add new group
+        </button>
+        <button
+          type="button"
+          className="drag-button"
+          onClick={() => {
+            setState([...state, getItems(1)]);
+          }}
+        >
+          Add new item
+        </button>
+      </div>
     </div>
   );
 };

@@ -34,6 +34,12 @@ const Header = ({ setDarkmode, darkmode }) => {
       </Link>
       <Link
         className={!darkmode ? "headerLink" : "headerLink-dark"}
+        to="/dragme"
+      >
+        drag
+      </Link>
+      <Link
+        className={!darkmode ? "headerLink" : "headerLink-dark"}
         to="/contact"
       >
         contact
