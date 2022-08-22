@@ -1,17 +1,15 @@
-.block {
+/* .block {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  /* justify-items: center; */
   text-align: center;
-  /* border: 2px solid black; */
   height: auto;
   margin-top: 5%;
 }
 
 .block h3 {
   font-size: 2.5vh;
-}
+} */
 
 .classImg {
   width: 116px;
@@ -187,10 +185,10 @@
 }
 
 .theoremCompanies img {
-  width: 40%;
+  /* width: 40%;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   /* width: 50%; */
   /* position: relative; */
   /* text-align: center; */
@@ -202,10 +200,9 @@
   padding-top: 20px;
 }
 
-.wordContent {
-  /* margin-top: 20%; */
+/* .wordContent {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px;
-}
+} */

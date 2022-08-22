@@ -1,8 +1,8 @@
-.footer{
+.footer {
   /* position: fixed; */
   left: 0;
   bottom: 0;
-  width: 100%;
+  /* width: 100%; */
   background-image: linear-gradient(to right, rgba(255,0,0,0), #262626);
   color: white;
   text-align: right;
@@ -10,8 +10,9 @@
   padding-top: 15px;
   padding-right: 20px;
   margin-top: 5%;
-  font-size: 2vh;
-  
+  font-size: 12px;
+  width: 100%;
+  overflow-x: hidden;
 }
 .footer-dark{
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
