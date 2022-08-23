@@ -16,9 +16,9 @@ import "../css/projects.scss";
 
 const Projects = ({ darkmode }) => {
   return (
-    <div className="projects-container">
+    <div className="main-container">
       <div className={!darkmode ? "titleWrapper" : 'titleWrapper-dark'}>
-        <h1 className="title" >Projects</h1>
+        <span className="" >Projects</span>
       </div>
 
       <div className="block">
@@ -70,9 +70,11 @@ const Projects = ({ darkmode }) => {
             This is a component I built in React for the LA Galaxy single ticket page. I built this as part of a larger project for the LA Galaxy during my time at Theorem Agency.
           </span>
         </div>
-        <a href="https://theoreminc.net/" className="">
-          <img className="project-img" src={LAGalaxyComponent}></img>
-        </a>
+        <div className="imgWrapper">
+          <a href="https://theoreminc.net/" className="">
+            <img className="project-img" src={LAGalaxyComponent}></img>
+          </a>
+        </div>
       </div>
 
       <div className="block">
@@ -108,7 +110,7 @@ const Projects = ({ darkmode }) => {
         <div className="wordWrapper">
           <span className="wordContent">wordsy</span>
           <span className="wordContent">
-            This is a little word definition game using the Merriam Webster API meant for mobile devices so I can look at some words while sipping coffee. It's built with React and SCSS. Love the squirl. Turns out there is already a game named wordsy, so I'll probably change the name :) It is a fun app that I just wanted to make to use. I can't wait to take some time to build this out some more!
+            This is a little word definition game using the Merriam Webster API meant for mobile devices so I can look at some words while sipping coffee. It's built with React and SCSS. Love the squirl. Turns out there is already a game named wordsy, so I'll probably change the name :) It is a fun app that I just wanted to make in order to play. I can't wait to take some time to build this out some more!
           </span>
         </div>
         <div className="imgWrapper">

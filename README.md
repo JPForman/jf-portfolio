@@ -1,7 +1,7 @@
 # _jfPortfolio_
 
 
-#### _This is an application for tracking personal data in a visual way._
+#### _This is my personal portfolio circa August 2022._
 
 #### By _**Josh Forman**_
 

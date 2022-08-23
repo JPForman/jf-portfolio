@@ -1,5 +1,5 @@
-.projects-container {
-  width: 100vw;
+.main-container {
+  width: 100%;
   .titleWrapper {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #262626);
     height: fit-content;
@@ -14,27 +14,52 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    padding: 50px 0;
     margin: 50px 0;
     &:nth-child(odd) {
       flex-direction: row-reverse;
     }
-    @media (max-width: 850px) {
+    @media (max-width: 900px) {
       flex-direction: column-reverse;
       &:nth-child(odd) {
         flex-direction: column-reverse;
       }
     }
     .imgWrapper {
-      min-width: 450px;
-      max-width: 40%;
-      @media (max-width: 850px) {
+      // min-width: 450px;
+      // max-width: 40%;
+      width: 50%;
+      @media (max-width: 900px) {
         min-width: none;
         max-width: none;
         width: 100%;
         margin: 0 0 20px 0;
+      }
+      .link-row {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        .row-img {
+          // height: 200px;
+          // width: auto;
+          max-width: 150px;
+          border: 5px solid white;
+          border-radius: 5px;
+          &:hover {
+            cursor: pointer;
+            opacity: .5;
+            box-shadow: 0 20px 20px 0 black;
+          }
+          // height: fit-content;
+          // width: auto;
+          // max-width: 50%;
+        }
       }
       .theorem-group {
         width: 100%;
@@ -50,9 +75,8 @@
       }
     }
     .wordWrapper {
-      min-width: 450px;
-      max-width: 40%;
-      @media (max-width: 850px) {
+      width: 50%;
+      @media (max-width: 900px) {
         min-width: 0px;
         max-width: none;
         width: 100%
@@ -68,12 +92,11 @@
   }
 }
 
-// .blazer-img {
-//   height: 80%;
-// }
-
 .project-img {
-  width: 80%;
+  min-width: 450px;
+  max-width: 40%;
+  // max-width: 80%;
+  // max-height: 200px;
   border: 5px solid white;
   border-radius: 5px;
   &:hover {
@@ -82,60 +105,5 @@
     box-shadow: 0 20px 20px 0 black;
   }
 }
-
-
-
-
-// .classfull-img {
-//   padding: 30px;
-//   width: 100%;
-// }
-
-// .ganeshaImg {
-//   width: 100%;
-// }
-
-// .galaxyWrapper {
-//   margin-left: 10%;
-//   width: 80%;
-//   height: 30vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   opacity: 0.7;
-// }
-
-// .galaxyWrapper:hover {
-//   opacity: 1;
-// }
-
-// .ganeshaWrapper {
-//   margin-left: 10%;
-//   background-color: #419e5a;
-//   width: 80%;
-//   height: 30vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   opacity: 0.7;
-// }
-
-// .ganeshaWrapper:hover {
-//   opacity: 1;
-// }
-
-// .imgWrapperA {
-//   background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #262626);
-// }
-
-
-
-// .title {
-//   text-align: right;
-//   color: snow;
-//   font-size: 7vh;
-//   padding-right: 20px;
-// }
-
 
 
