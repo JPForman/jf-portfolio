@@ -1,15 +1,15 @@
 .main-container {
   width: 100%;
-  .titleWrapper {
+  .title-wrapper {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #262626);
-    height: fit-content;
     padding: 5px;
+    .title {
+      font-size: 25px;
+    }
+    &.dark {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
+    }
   }
-  .titleWrapper-dark {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
-    height: fit-content;
-    padding: 5px;
-  } 
   .block {
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@
         flex-direction: column-reverse;
       }
     }
-    .imgWrapper {
+    .img-wrapper {
       // min-width: 450px;
       // max-width: 40%;
       width: 50%;
@@ -45,9 +45,10 @@
         width: 100%;
         justify-content: space-around;
         align-items: center;
+        @media (max-width: 900px) {
+          display: block;
+        }
         .row-img {
-          // height: 200px;
-          // width: auto;
           max-width: 150px;
           border: 5px solid white;
           border-radius: 5px;
@@ -56,9 +57,6 @@
             opacity: .5;
             box-shadow: 0 20px 20px 0 black;
           }
-          // height: fit-content;
-          // width: auto;
-          // max-width: 50%;
         }
       }
       .theorem-group {
@@ -67,34 +65,34 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
         img {
           width: 15%;
           height:fit-content;
         }
       }
     }
-    .wordWrapper {
+    .word-wrapper {
       width: 50%;
       @media (max-width: 900px) {
         min-width: 0px;
         max-width: none;
         width: 100%
       }
-      .wordContent {
+      .word-content {
         padding: 0 25px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 22px;
       }
     }
   }
 }
 
 .project-img {
-  min-width: 450px;
-  max-width: 40%;
+  // min-width: 450px;
+  max-width: 90%;
   // max-width: 80%;
   // max-height: 200px;
   border: 5px solid white;

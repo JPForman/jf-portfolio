@@ -1,51 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CustomInput } from "reactstrap";
+import SideDrawer from "./SideDrawer";
 
-import "../css/header.css";
+import "./header.scss";
 
 const Header = ({ setDarkmode, darkmode }) => {
+
+  const linkList = [
+    {content: 'projects', url: '/projects'},
+    {content: 'about me', url: '/aboutme'},
+    {content: 'color', url: '/neato'},
+    {content: 'drag', url: '/dragme'},
+    {content: 'contact', url: '/contact'}
+  ]
+
   return (
+    <>
+    <SideDrawer linkList={linkList} darkmode={darkmode} setDarkmode={setDarkmode} />
     <div className="header">
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/aboutMe"
-      >
-        joshua forman<span className="nameTitle">m.a.m.ed.</span>
-      </Link>
-      <div></div>
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/projects"
-      >
-        projects
-      </Link>
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/aboutMe"
-      >
-        about me
-      </Link>
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/neato"
-      >
-        color
-      </Link>
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/dragme"
-      >
-        drag
-      </Link>
-      <Link
-        className={!darkmode ? "headerLink" : "headerLink-dark"}
-        to="/contact"
-      >
-        contact
-      </Link>
+      <Link className={!darkmode ? "link" : "link-dark"} to="/aboutMe">joshua forman <span className="title">m.a.m.ed.</span></Link>
+      {linkList.map((link) => (
+        <Link className={!darkmode ? "link" : "link-dark"} to={link.url}>
+          {link.content}
+        </Link>
+      ))}
       <div className='darkmode-toggle-container'>
-        <p className="darkmode-label">dark mode</p>
+        <span className="darkmode-label">dark mode</span>
         <CustomInput
           type="switch"
           id="darkModeSwitch"
@@ -55,6 +36,7 @@ const Header = ({ setDarkmode, darkmode }) => {
         />
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,4 +1,27 @@
-.darkmode-label {
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  .link {
+    color: black;
+  }
+  .link-dark {
+    color: white;
+  }
+  .title {
+    font-size: 10px;
+  }
+  @media (max-width: 900px) {
+    display: none;
+}
+@media (max-width: 900px) {
+
+}
+}
+
+/* .darkmode-label {
   font-size: 12px;
   margin: 0;
 }
@@ -43,9 +66,9 @@
 .nameTitle {
   font-size: 1.5vh;
   padding-top: 1vh;
-  margin-left: 4px;
-}
+  /* margin-left: 4px; */
 
-label.cusom-control-label {
+
+/* label.cusom-control-label {
   align-self: center;
-}
+} */
