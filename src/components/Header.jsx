@@ -11,7 +11,7 @@ const Header = ({ setDarkmode, darkmode }) => {
     {content: 'projects', url: '/projects'},
     {content: 'about me', url: '/aboutme'},
     {content: 'color', url: '/neato'},
-    {content: 'drag', url: '/dragme'},
+    // {content: 'drag', url: '/dragme'},
     {content: 'contact', url: '/contact'}
   ]
 

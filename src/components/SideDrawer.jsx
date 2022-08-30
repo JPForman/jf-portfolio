@@ -11,7 +11,8 @@ const SideDrawer = ({ linkList, darkmode, setDarkmode }) => {
     setDrawerIsOpen(!drawerIsOpen)
   }
   return (
-    <div className={`sidebar-container `}>
+    <div className={`sidebar-container`}>
+      {drawerIsOpen === true && <div className='sidebar-off' onClick={() => setDrawerIsOpen(false)}></div>}
       <svg onClick={toggleDrawer} viewBox="0 0 100 80" width="40" height="40" className={`hamburger ${darkmode ? 'dark' : ''}`}>
         <rect width="100" height="20"></rect>
         <rect y="30" width="100" height="20"></rect>
@@ -29,8 +30,9 @@ const SideDrawer = ({ linkList, darkmode, setDarkmode }) => {
           <span className="darkmode-label">dark mode</span>
           <CustomInput
             type="switch"
-            id="darkModeSwitch"
-            name="customSwitch"
+            id="darkModeSwitch2"
+            name="customSwitch2"
+            value={darkmode}
             onChange={() => setDarkmode(!darkmode)}
             className="darkmode-switch"
           />

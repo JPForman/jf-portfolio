@@ -52,12 +52,19 @@
       .link-row {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         height: 100%;
         width: 100%;
         justify-content: space-around;
         align-items: center;
+        // @media (max-width: 900px) {
+        //   display: block;
+        // }
         @media (max-width: 900px) {
-          display: block;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
         }
         .row-img {
           max-width: 150px;
@@ -78,7 +85,6 @@
         align-items: center;
         img {
           width: 15%;
-          height:fit-content;
         }
       }
     }

@@ -14,7 +14,7 @@ import Neato from "./Neato.jsx";
 import DragMe from "./DragMe.jsx";
 
 const App = () => {
-  const [darkmode, setDarkmode] = useState(false);
+  const [darkmode, setDarkmode] = useState(true);
 
   const darkStyle = {
     backgroundColor: "#323232",

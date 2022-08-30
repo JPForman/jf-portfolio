@@ -1,5 +1,6 @@
 import React from "react";
-import "../css/footer.css";
+
+import "./footer.scss";
 
 const Footer = ({ darkmode }) => {
   return (

@@ -11,6 +11,8 @@
 .drag-container {
   background-color: #005C69;
   height: calc(100vh - 50px);
+  width: 100vw;
+  overflow-x: hidden;
   @media (max-width: 900px) {
     padding-top: 80px;
   }

@@ -1,4 +1,12 @@
 .sidebar-container {
+  .sidebar-off {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+  }
   .hamburger {
     position: fixed;
     top: 20px;
@@ -6,8 +14,14 @@
     cursor: pointer;
     z-index: 6;
     fill: black;
+    &:hover {
+      fill: white;
+    }
     &.dark {
       fill: white;
+      &:hover {
+        fill: black;
+      }
     }
   }
   .side-drawer-container{
@@ -37,22 +51,23 @@
       flex-direction: column;
       a {
         color: white;
+        font-size: 20px;
+        &:hover {
+          color: rgb(255, 135, 31);
+        }
       }
     }
     .darkmode-toggle-container {
       position: absolute;
-      bottom: 10px;
+      bottom: 50px;
       left: 50%;
       transform: translateX(-50%);
       text-align: center;
-    }
-    span {
-      cursor: pointer;
-      cursor: pointer;
-      margin: 10px 0;
-      font-size: 20px;
-      &:hover {
-        color: rgb(255, 135, 31);
+      .darkmode-switch {
+        * {
+          cursor: pointer;
+
+        }
       }
     }
   }
