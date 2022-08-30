@@ -22,7 +22,7 @@ const AboutMe = ({ darkmode }) => {
   return (
     <div className="main-container">
       <div className={`title-wrapper ${darkmode ? "dark" : ''}`}>
-        <span className="title">hello, my name is Joshua Forman</span>
+        <span className="title about-me">hello, my name is Joshua Forman</span>
       </div>
 
       <div className="block">

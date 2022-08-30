@@ -11,19 +11,20 @@ const SideDrawer = ({ linkList, darkmode, setDarkmode }) => {
     setDrawerIsOpen(!drawerIsOpen)
   }
   return (
-    <>
-      <svg onClick={toggleDrawer} viewBox="0 0 100 80" width="40" height="40" class="hamburger">
+    <div className={`sidebar-container `}>
+      <svg onClick={toggleDrawer} viewBox="0 0 100 80" width="40" height="40" className={`hamburger ${darkmode ? 'dark' : ''}`}>
         <rect width="100" height="20"></rect>
         <rect y="30" width="100" height="20"></rect>
         <rect y="60" width="100" height="20"></rect>
       </svg>
-      <div class={`side-drawer-container ${drawerIsOpen ? 'open' : 'closed'}`}>
-        <div className='link-list'></div>
-        {linkList.map((link) => (
-          <Link className={!darkmode ? "link" : "link-dark"} to={link.url}>
-            {link.content}
-          </Link>
-        ))}
+      <div class={`side-drawer-container ${darkmode ? 'dark' : ''} ${drawerIsOpen ? 'open' : 'closed'}`}>
+        <div className='link-list'>
+          {linkList.map((link, i) => (
+            <Link key={i} onClick={toggleDrawer} className={`link ${darkmode ? 'dark' : ''}`} to={link.url}>
+              {link.content}
+            </Link>
+          ))}
+        </div>
         <div className='darkmode-toggle-container'>
           <span className="darkmode-label">dark mode</span>
           <CustomInput
@@ -35,7 +36,7 @@ const SideDrawer = ({ linkList, darkmode, setDarkmode }) => {
           />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

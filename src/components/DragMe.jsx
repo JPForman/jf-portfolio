@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
-import "../css/dragMe.css";
+import "../css/dragMe.scss";
 
 // data generator
 const getItems = (count, offset = 0) =>

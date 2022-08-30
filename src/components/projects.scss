@@ -3,11 +3,22 @@
   .title-wrapper {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #262626);
     padding: 5px;
+    display: flex;
     .title {
-      font-size: 25px;
+      font-size: 46px;
+      &.about-me {
+        font-size: 20px;
+      }
     }
     &.dark {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #380066);
+    }
+    @media (max-width: 900px) {
+      flex-direction: row-reverse;
+      align-items: center;
+      color: white;
+      height: 80px;
+      text-align: right;
     }
   }
   .block {

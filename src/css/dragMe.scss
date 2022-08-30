@@ -1,0 +1,20 @@
+.drag-button {
+
+}
+
+.drag-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.drag-container {
+  background-color: #005C69;
+  height: calc(100vh - 50px);
+  @media (max-width: 900px) {
+    padding-top: 80px;
+  }
+  /* height: 92vh;
+  overflow-y: hidden;
+  position: relative; */
+}
