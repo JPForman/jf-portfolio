@@ -114,7 +114,7 @@ const Projects = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <a href="http://wordsy.cyborgforman.me/">
+          <a href="https://wordsy-96a65.web.app/">
             <img className="project-img" src={wordsy}></img>
           </a>
         </div>
