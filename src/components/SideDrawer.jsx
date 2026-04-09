@@ -18,7 +18,7 @@ const SideDrawer = ({ linkList, darkmode, setDarkmode }) => {
         <rect y="30" width="100" height="20"></rect>
         <rect y="60" width="100" height="20"></rect>
       </svg>
-      <div class={`side-drawer-container ${darkmode ? 'dark' : ''} ${drawerIsOpen ? 'open' : 'closed'}`}>
+      <div className={`side-drawer-container ${darkmode ? 'dark' : ''} ${drawerIsOpen ? 'open' : 'closed'}`}>
         <div className='link-list'>
           {linkList.map((link, i) => (
             <Link key={i} onClick={toggleDrawer} className={`link ${darkmode ? 'dark' : ''}`} to={link.url}>

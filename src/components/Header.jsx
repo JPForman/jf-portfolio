@@ -21,7 +21,11 @@ const Header = ({ setDarkmode, darkmode }) => {
     <div className="header">
       <Link className={!darkmode ? "link" : "link-dark"} to="/aboutMe">joshua forman <span className="title">m.a.m.ed.</span></Link>
       {linkList.map((link) => (
-        <Link className={!darkmode ? "link" : "link-dark"} to={link.url}>
+        <Link
+          key={link.url}
+          className={!darkmode ? "link" : "link-dark"}
+          to={link.url}
+        >
           {link.content}
         </Link>
       ))}

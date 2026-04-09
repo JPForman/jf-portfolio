@@ -40,12 +40,12 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://theoreminc.net/" className={!darkmode ? "theorem" : 'theorem-dark'}>
-            <img className="project-img" src={Theorem}></img>
+            <img className="project-img" src={Theorem} alt="Theorem Agency" />
           </a>
           <div className="theorem-group">
-            <img className="" src={LAGalaxy}></img>
-            <img className="" src={Trailblazers}></img>
-            <img className="" src={Aflac}></img>
+            <img className="" src={LAGalaxy} alt="LA Galaxy" />
+            <img className="" src={Trailblazers} alt="Portland Trail Blazers" />
+            <img className="" src={Aflac} alt="Aflac" />
           </div>
         </div>
       </div>
@@ -59,7 +59,11 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://theoreminc.net/" className="">
-            <img className="project-img" src={BlazersComponent} />
+            <img
+              className="project-img"
+              src={BlazersComponent}
+              alt="Trail Blazers player stats React component"
+            />
           </a>
         </div>
       </div>
@@ -72,7 +76,11 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://theoreminc.net/" className="">
-            <img className="project-img" src={LAGalaxyComponent}></img>
+            <img
+              className="project-img"
+              src={LAGalaxyComponent}
+              alt="LA Galaxy single ticket page component"
+            />
           </a>
         </div>
       </div>
@@ -87,7 +95,7 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://safe-thicket-26720.herokuapp.com/#/">
-            <img className="project-img" src={HRDash}></img>
+            <img className="project-img" src={HRDash} alt="Theorem HR portal dashboard" />
           </a>
         </div>
       </div>
@@ -101,7 +109,7 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="http://paulys.cyborgforman.me/">
-            <img className="project-img" src={PaulysPizza}></img>
+            <img className="project-img" src={PaulysPizza} alt="Pauly's Pizza app" />
           </a>
         </div>
       </div>
@@ -115,7 +123,7 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://wordsy-96a65.web.app/">
-            <img className="project-img" src={wordsy}></img>
+            <img className="project-img" src={wordsy} alt="wordsy word game" />
           </a>
         </div>
       </div>
@@ -129,7 +137,7 @@ const Projects = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://myforest-4ec7f.web.app/">
-            <img className="project-img" src={MyForest}></img>
+            <img className="project-img" src={MyForest} alt="myForest habit tracking app" />
           </a>
         </div>
       </div>

@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import AksharDave from "../img/AksharDave.jpg";
 import MeMash from "../img/MeMash.png";
-import SriYantra from "../img/SriYantra.png";
 import Theorem from '../img/theorem.png'
 import LAGalaxy from "../img/LAGalaxy.png";
 import Trailblazers from "../img/Trailblazers.png";
@@ -32,7 +29,7 @@ const AboutMe = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className="project-img" src={MeMash}></img>
+          <img className="project-img" src={MeMash} alt="Joshua Forman" />
         </div>
       </div>
 
@@ -46,10 +43,10 @@ const AboutMe = ({ darkmode }) => {
         <div className="img-wrapper">
           <div className="link-row">
             <a href="https://classbucks.com/" className="">
-              <img className="row-img" src={ClassBucksLogo}></img>
+              <img className="row-img" src={ClassBucksLogo} alt="Class Bucks" />
             </a>
             <a href="http://datacharter.org/" className="">
-              <img className="row-img" src={DATA}></img>
+              <img className="row-img" src={DATA} alt="DATA Charter School" />
             </a>
           </div>
         </div>
@@ -63,12 +60,12 @@ const AboutMe = ({ darkmode }) => {
         </div>
         <div className="img-wrapper">
           <a href="https://theoreminc.net/" className={!darkmode ? "theorem" : 'theorem-dark'}>
-            <img className="project-img" src={Theorem}></img>
+            <img className="project-img" src={Theorem} alt="Theorem Agency" />
           </a>
           <div className="theorem-group">
-            <img className="" src={LAGalaxy}></img>
-            <img className="" src={Trailblazers}></img>
-            <img className="" src={Aflac}></img>
+            <img className="" src={LAGalaxy} alt="LA Galaxy" />
+            <img className="" src={Trailblazers} alt="Portland Trail Blazers" />
+            <img className="" src={Aflac} alt="Aflac" />
           </div>
         </div>
       </div>
@@ -91,13 +88,13 @@ const AboutMe = ({ darkmode }) => {
         <div className="img-wrapper">
           <div className="link-row">
             <a href="https://www.depaul.edu/Pages/default.aspx">
-              <img className="row-img" src={DePaul}></img>
+              <img className="row-img" src={DePaul} alt="DePaul University" />
             </a>
             <a href="https://www.epicodus.com/">
-              <img className="row-img" src={Epicodus}></img>
+              <img className="row-img" src={Epicodus} alt="Epicodus" />
             </a>
             <a href="https://wayne.edu/">
-              <img className="row-img" src={WSU}></img>
+              <img className="row-img" src={WSU} alt="Wayne State University" />
             </a>
           </div>
         </div>
@@ -113,9 +110,9 @@ const AboutMe = ({ darkmode }) => {
         <div className="img-wrapper">
           <div className="link-row">
             <a href="http://datacharter.org/">
-              <img className="row-img" src={DATA}></img>
+              <img className="row-img" src={DATA} alt="DATA Charter School" />
             </a>
-            <img className="row-img" src={CTDHS}></img>
+            <img className="row-img" src={CTDHS} alt="CTDHS" />
           </div>
         </div>
       </div>
@@ -127,7 +124,7 @@ const AboutMe = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className="editing" src={Editing}></img>
+          <img className="editing" src={Editing} alt="Video editing workspace" />
         </div>
       </div>
 
