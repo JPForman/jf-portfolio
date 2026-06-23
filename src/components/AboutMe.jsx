@@ -43,7 +43,9 @@ const AboutMe = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className={`project-img${!darkmode ? ' project-img-invert' : ''}`} src={Lucerna} alt="Lucerna Digital logo" />
+          <a href="https://www.lucernadigital.com/">
+            <img className={`project-img${!darkmode ? ' project-img-invert' : ''}`} src={Lucerna} alt="Lucerna Digital logo" />
+          </a>
         </div>
       </div>
 
@@ -54,7 +56,9 @@ const AboutMe = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className="project-img" src={FSLogo} alt="U.S. Forest Service logo" />
+          <a href="https://www.fs.usda.gov/">
+            <img className="project-img" src={FSLogo} alt="U.S. Forest Service logo" />
+          </a>
         </div>
       </div>
 
