@@ -28,7 +28,9 @@ const Projects = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className={`project-img${!darkmode ? ' project-img-invert' : ''}`} src={Lucerna} alt="Lucerna Digital lantern logo" />
+          <a href="https://www.lucernadigital.com/">
+            <img className={`project-img${!darkmode ? ' project-img-invert' : ''}`} src={Lucerna} alt="Lucerna Digital lantern logo" />
+          </a>
         </div>
       </div>
 
@@ -39,7 +41,9 @@ const Projects = ({ darkmode }) => {
           </span>
         </div>
         <div className="img-wrapper">
-          <img className="project-img" src={FSLogo} alt="U.S. Forest Service logo" />
+          <a href="https://www.fs.usda.gov/">
+            <img className="project-img" src={FSLogo} alt="U.S. Forest Service logo" />
+          </a>
         </div>
       </div>
 
@@ -63,7 +67,9 @@ const Projects = ({ darkmode }) => {
           </span>
         </div>
           <div className="img-wrapper">
-          <img className="project-img" src={Cynerge} alt="Cynerge Consulting logo" />
+          <a href="https://cynerge.com/">
+            <img className="project-img" src={Cynerge} alt="Cynerge Consulting logo" />
+          </a>
         </div>
       </div>
 
