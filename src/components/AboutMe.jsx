@@ -3,7 +3,6 @@ import MeMash from "../img/MeMash.png";
 import Lucerna from "../img/lucerna.png";
 import FSLogo from "../img/fs_logo.svg";
 import Kalpa from "../img/kalpa.png";
-import Cynerge from "../img/cynerge.png";
 import ClassBucksFull from "../img/ClassbucksLogoFull.jpg";
 import Theorem from '../img/theorem.png';
 import LAGalaxy from "../img/LAGalaxy.png";
