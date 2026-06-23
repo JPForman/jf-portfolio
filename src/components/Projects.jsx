@@ -24,7 +24,7 @@ const Projects = ({ darkmode }) => {
       <div className="block">
         <div className="word-wrapper">
           <span className="word-content">
-            I am an Application Developer at Lucerna Digital, where I build customized client applications using React, Google Firebase, and PostgreSQL. I design and maintain automated CI/CD pipelines and apply AI-assisted development tools including Claude Code and Cursor to accelerate feature delivery and improve code quality. Nov 2025–Present.
+            I am an Application Developer at Lucerna Digital, where I build customized client applications using React, Google Firebase, and PostgreSQL. I design and maintain automated CI/CD pipelines and apply AI-assisted development tools including Claude Code and Cursor to accelerate feature delivery and improve code quality.
           </span>
         </div>
         <div className="img-wrapper">
@@ -35,7 +35,7 @@ const Projects = ({ darkmode }) => {
       <div className="block">
         <div className="word-wrapper">
           <span className="word-content">
-            At Cynerge Consulting, I developed the Angular front-end for a federal mission-tracking system as part of the U.S. Forest Service and BLM Smokejumper modernization effort. The application runs within a secure VPN environment and required federal security clearance, supporting real-time tracking of smokejumper missions, ancillary logistics, and incident reporting for field operations.
+            At Cynerge Consulting, I was on contract with the federal govenmnet. I was a front end Angular developer for a federal mission-tracking and reporting system as part of the U.S. Forest Service and BLM Smokejumper modernization effort. The application runs within a secure VPN environment and required federal security clearance, supporting real-time tracking of smokejumper missions, ancillary logistics, and incident reporting for field operations.
           </span>
         </div>
         <div className="img-wrapper">
@@ -46,12 +46,12 @@ const Projects = ({ darkmode }) => {
       <div className="block">
         <div className="word-wrapper">
           <span className="word-content">
-            Kalpa v4 is a professional development reporting system I led from inception at Cynerge Consulting. I defined the Angular component architecture, built data visualization features with ChartJS, and implemented AWS Cognito authentication with federated social sign-in. Stack: Angular, Angular Material, ChartJS, AWS Amplify, Node.js, Express, Sequelize, PostgreSQL, AWS Aurora.
+            Kalpa v4 is a professional development reporting system I helped lead from inception at Cynerge Consulting. I helped defined the Angular component architecture, built data visualization features with ChartJS, and implemented AWS Cognito authentication with federated social sign-in. Stack: Angular, Angular Material, ChartJS, AWS Amplify, Node.js, Express, Sequelize, PostgreSQL, AWS Aurora.
           </span>
         </div>
         <div className="img-wrapper">
           <a href="https://kalpasolutions.com/">
-            <img className="project-img project-img-scale" src={Kalpa} alt="Kalpa Solutions logo" />
+            <img className="project-img" src={Kalpa} alt="Kalpa Solutions logo" />
           </a>
         </div>
       </div>
@@ -70,7 +70,7 @@ const Projects = ({ darkmode }) => {
       <div className="block">
         <div className="word-wrapper">
           <span className="word-content">
-            I built ClassBucks, a gamified classroom management platform, from the ground up as sole lead developer — taking the product from concept to production. I collaborated with stakeholders to translate product goals into actionable development tasks and sprint plans. Stack: React, Bootstrap, Google Firebase. Aug 2020–Nov 2022.
+            I built ClassBucks, a gamified classroom management platform, from the ground up as sole lead developer — taking the product from concept to production. I collaborated with stakeholders to translate product goals into actionable development tasks and sprint plans. Stack: React, Bootstrap, Google Firebase.
           </span>
         </div>
         <div className="img-wrapper">

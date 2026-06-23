@@ -1,0 +1,37 @@
+Joshua Forman
+formanmath@gmail.com | 505-236-2079 | Portland, OR
+SUMMARY
+Full-stack developer with 6+ years building production web and mobile applications across education, government, and startup environments. Experienced leading projects from inception through deployment, collaborating with stakeholders to turn product goals into working software. Proficient with modern AI-assisted development tools including Claude Code, Cursor, and agentic workflows, using them to ship faster and maintain higher code quality. 
+TECHNICAL SKILLS
+Frontend: JavaScript, TypeScript, React, React Native, Angular, Angular Material, Tailwind, Bootstrap, SCSS, HTML, Cypress
+Backend and Data: Node.js, Express, PostgreSQL, MongoDB, DynamoDB, Ruby, Python, REST APIs
+Cloud and DevOps: AWS (Amplify, Cognito, S3, Aurora), Azure, Google Firebase, CircleCI, GitHub Actions, Jenkins, SonarQube
+AI and Tooling: Claude Code, Cursor, GitHub Copilot, Agentic Workflows, Git, GitHub, Agile/Scrum 
+EXPERIENCE
+Lucerna Digital — Application Developer   Detroit, MI | Nov 2025 - Present
+Build customized client applications using React, Google Firebase, and PostgreSQL with a focus on clean architecture and rapid iteration
+Design and maintain automated CI/CD pipelines that reduce time to production and improve deployment reliability across client projects
+Apply AI-assisted development tools including Claude Code and Cursor to accelerate feature delivery, improve code quality, and reduce review cycles
+Contribute to product strategy, market research, and customer outreach, bridging technical execution with business goals
+Cynerge Consulting — Application Developer   Pontiac, MI | Nov 2022 - Aug 2025
+Smokejumper — U.S. Forest Service and BLM Modernization
+Developed Angular front-end for a federal mission-tracking system within a secure VPN environment, requiring federal security clearance
+Supported real-time tracking of smokejumper missions, ancillary logistics, and incident reporting for field operations
+Kalpa v4 — Professional Development Reporting System
+Led Angular front-end development from v4 inception, defining component architecture and collaborating directly with stakeholders on requirements
+Built data visualization features with ChartJS and implemented AWS Cognito authentication with federated social sign-in
+Stack: Angular, Angular Material, ChartJS, AWS Amplify, Node.js, Express, Sequelize, PostgreSQL, AWS Aurora
+Keepsake — Family Heirloom Tracker
+Built a cross-platform React Native proof-of-concept for iOS and Android, integrating native camera, video, and photo library APIs
+Implemented cloud auth, file storage, and NoSQL persistence using AWS Amplify (Cognito, S3, DynamoDB)
+Class Bucks LLC — Lead Application Developer   Albuquerque, NM | Aug 2020 - Nov 2022
+Built a gamified classroom management platform from the ground up as sole lead developer, taking the product from concept to production
+Collaborated with stakeholders to translate product goals into actionable development tasks and sprint plans
+Stack: React, Bootstrap, Google Firebase
+Theorem Agency — React Developer (Internship)   Portland, OR | Mar 2020 - May 2020
+Delivered front-end React components for enterprise clients including Aflac Insurance, the Portland Trail Blazers, and the LA Galaxy
+Collaborated within an agile development team to meet tight client deadlines with polished, responsive UI 
+EDUCATION
+Epicodus — Certificate in Web and App Development, Portland, OR
+DePaul University — Master of Arts in Mathematics Education, Chicago, IL
+Wayne State University — Bachelor of Arts in Philosophy, Detroit, MI
