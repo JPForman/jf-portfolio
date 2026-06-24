@@ -11,9 +11,6 @@ import Aflac from "../img/Aflac.png";
 import Epicodus from "../img/Epicodus.png";
 import DePaul from "../img/depaul.png";
 import WSU from "../img/wsu.png";
-import DATA from "../img/DATAlogo.jpg";
-import CTDHS from "../img/ctdhs.jpg";
-import Editing from "../img/editing.jpg";
 import Footer from "./Footer";
 
 import "../css/aboutMe.css";
@@ -124,33 +121,6 @@ const AboutMe = ({ darkmode }) => {
               <img className="row-img" src={WSU} alt="Wayne State University" />
             </a>
           </div>
-        </div>
-      </div>
-
-      <div className="block">
-        <div className="word-wrapper">
-          <span className="word-content">
-            Before getting into programming, I taught mathematics, yoga, and film editing.
-          </span>
-        </div>
-        <div className="img-wrapper">
-          <div className="link-row">
-            <a href="http://datacharter.org/">
-              <img className="row-img" src={DATA} alt="DATA Albuquerque Charter School" />
-            </a>
-            <img className="row-img" src={CTDHS} alt="CTDHS" />
-          </div>
-        </div>
-      </div>
-
-      <div className="block">
-        <div className="word-wrapper">
-          <span className="word-content">
-            Prior to teaching, I was a professional video editor in Chicago.
-          </span>
-        </div>
-        <div className="img-wrapper">
-          <img className="editing" src={Editing} alt="video editing" />
         </div>
       </div>
 
